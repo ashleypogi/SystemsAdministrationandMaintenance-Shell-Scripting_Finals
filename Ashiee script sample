@@ -1,0 +1,54 @@
+To follow the instructions provided, let's go step by step:
+Step #1: Create the Main Directory 'Ashiee' then view using ls -1 command:
+Copy the code:
+mkdir Ashiee
+ls -1
+
+Step #2: Inside the Main Directory 'Ashiee', make another directory named 'SystemsAdministrationandMaintenance' then view using ls -1 command.
+Copy the code:
+cd Ashiee
+mkdir SystemsAdministrationandMaintenance
+ls -1
+
+Step #3: Inside the 'SystemsAdministrationandMaintenance' create a txt file 'grades' using 'touch' command and view using 'ls -1' command.
+Copy the code:
+cd SystemsAdministrationandMaintenance
+touch grades.txt
+ls -l
+
+Step #4: Set permission to the newly created txt file 'grades'
+Copy the command:
+cd ../..
+chmod 755 Ashiee/SystemsAdministrationandMaintenance/grades.txt
+ls -l
+
+Step #5: Edit the 'grades.txt' using vi editor.
+Copy the command:
+vi Ashiee/SystemsAdministrationandMaintenance/grades.txt
+
+Once you're in the vi editor, press i to enter the insert mode. Then copy and paste the following text into the file:
+# This is my grades script
+clear
+echo "Ashie."
+echo "I am 19 yrs old."
+echo "My full name is John Ashley Africa Gallamoza."
+echo "From BSIT-102A."
+echo "My motto in life is Admiration is the purest form of love. To look at you is to witness the beauty of a soul that captivates my heart."
+# ask the user for their grades
+echo "Hello there, please input your grades as follows!"
+read gradesm
+
+echo "Here are your grades: $gradesm"
+
+Note: You can modify the codes as follows, for better improvisation.
+
+To save the changes and exit, press Esc to exit the insert mode, then type :wq and press Enter. Or, simply using SHIFT + : + x, to save the commands.
+
+Step #6: Check for the permissions and run the script:
+chmod +x Ashiee/SystemsAdministrationandMaintenance/grades.sh
+cd Ashiee/SystemsAdministrationandMaintenance
+bash grades.sh
+
+Step #7: Install the 'tree' command to display the whole files and folders:
+sudo apt install tree
+tree
