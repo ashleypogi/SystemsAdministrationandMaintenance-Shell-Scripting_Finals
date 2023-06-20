@@ -1,0 +1,25 @@
+Systems Administration and Maintenance - SY2223-2T | 07 Shell Scripting (Final) | 07 Task Performance 1 – ARG
+Author/IT Professional: John Ashley Africa Gallamoza
+
+
+Objectives:
+At the end of the exercises, the students should be able to:
+	Use proper commands for shell scripts construction; and
+	Execte the scripts using bash commands.
+
+Materials:
+	Latest version of VirtualBox.
+	Ubuntu 16.04 ISO - Linux (Installed as Virtual Image)
+
+Affliate Links (VirtualBox Software) → https://terabox.com/s/1V911zZjYP-5tluH9XSA7xg
+Affliate Links (Ubuntu 16.04 ISO) → https://terabox.com/s/1n76Qe1d2u3MhD5fVo88HIw
+
+Procedures:
+Create a bash script that would do the following:
+1)	Create a directory based on the given input by the user.
+2)	Create a directory inside the directory based on step 1 and from the second user input.
+3)	Using the "touch" command, create a filename 'grades' inside the directory based on step 2.
+4)	Using the "chmod" command, edit the attributes of the file from step 3 to the value 755.
+5)	Execute the script file using BASH parameters.
+6)	Type in the following: sudo apt install tree
+7)	Use the 'tree' command to view the whole files and folders.
